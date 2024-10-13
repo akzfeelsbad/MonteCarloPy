@@ -14,12 +14,13 @@ Você pode instalar essas bibliotecas executando o seguinte comando:
 
 ```bash
 pip install yfinance numpy matplotlib
+```
 
 ## Funcionamento do Código
  O código realiza os seguintes passos:
 
- Download dos dados históricos: Os preços ajustados da ação MSFT são baixados usando a biblioteca yfinance.
-  Cálculo dos retornos logarítmicos: Com base nos preços ajustados, são calculados os retornos diários em forma logarítmica.
-   Cálculo da média e do desvio padrão: Os retornos são usados para calcular a média (mu) e o desvio padrão (sigma), que serão aplicados nas simulações.
-     Simulação de Preços: Usando uma distribuição normal baseada na média e no desvio padrão, o código gera 365 dias de retornos simulados e projeta os preços futuros.
-       Visualização das Simulações: O código realiza 100 simulações de preços futuros e as plota em um gráfico, destacando o último preço real da ação como referência.
+Download dos dados históricos: Os preços ajustados da ação MSFT são baixados usando a biblioteca yfinance.
+Cálculo dos retornos logarítmicos: Com base nos preços ajustados, são calculados os retornos diários em forma logarítmica.
+Cálculo da média e do desvio padrão: Os retornos são usados para calcular a média (mu) e o desvio padrão (sigma), que serão aplicados nas simulações.
+Simulação de Preços: Usando uma distribuição normal baseada na média e no desvio padrão, o código gera 365 dias de retornos simulados e projeta os preços futuros.
+Visualização das Simulações: O código realiza 100 simulações de preços futuros e as plota em um gráfico, destacando o último preço real da ação como referência.
