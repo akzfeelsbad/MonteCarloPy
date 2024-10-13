@@ -32,3 +32,10 @@ Simulação de Preços: Usando uma distribuição normal baseada na média e no 
 
 
 Visualização das Simulações: O código realiza 100 simulações de preços futuros e as plota em um gráfico, destacando o último preço real da ação como referência.
+
+
+## Exemplo de Gráfico
+O gráfico gerado pelo código apresentará 100 possíveis trajetórias do preço da ação, todas baseadas nos dados históricos e nas características estatísticas dos retornos da ação.
+
+## Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request para melhorias e novas funcionalidades.
